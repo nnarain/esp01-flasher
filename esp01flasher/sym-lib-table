@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name ESP8266)(type Legacy)(uri ${KIPRJMOD}/libs/kicad-ESP8266/ESP8266.lib)(options "")(descr ""))
+  (lib (name USB_CONN)(type Legacy)(uri ${KIPRJMOD}/libs/digikey-kicad-library/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib)(options "")(descr ""))
+  (lib (name DIGIKEY_LINEAR_REGULATORS)(type Legacy)(uri ${KIPRJMOD}/libs/digikey-kicad-library/digikey-symbols/dk_PMIC-Voltage-Regulators-Linear.lib)(options "")(descr ""))
+)

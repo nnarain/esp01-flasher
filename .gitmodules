@@ -1,0 +1,6 @@
+[submodule "esp01flasher/libs/kicad-ESP8266"]
+	path = esp01flasher/libs/kicad-ESP8266
+	url = https://github.com/nnarain/kicad-ESP8266.git
+[submodule "esp01flasher/libs/digikey-kicad-library"]
+	path = esp01flasher/libs/digikey-kicad-library
+	url = https://github.com/Digi-Key/digikey-kicad-library.git
