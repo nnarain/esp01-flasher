@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Interface_USB:FT230XS U1
+L Interface_USB:FT230XS U2
 U 1 1 5DAFB349
 P 4350 3950
-F 0 "U1" H 4700 4650 50  0000 C CNN
+F 0 "U2" H 4700 4650 50  0000 C CNN
 F 1 "FT230XS" H 4700 4550 50  0000 C CNN
 F 2 "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm" H 4800 3300 50  0001 C CNN
 F 3 "http://www.ftdichip.com/Products/ICs/FT230X.html" H 4350 3950 50  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "http://www.ftdichip.com/Products/ICs/FT230X.html" H 4350 3950 50  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR010
 U 1 1 5DAFB98B
 P 4350 4900
-F 0 "#PWR?" H 4350 4650 50  0001 C CNN
+F 0 "#PWR010" H 4350 4650 50  0001 C CNN
 F 1 "GND" H 4355 4727 50  0000 C CNN
 F 2 "" H 4350 4900 50  0001 C CNN
 F 3 "" H 4350 4900 50  0001 C CNN
@@ -49,10 +49,10 @@ F 4 " VLMS1500-GS08TR-ND" V 3350 1350 50  0001 C CNN "Part Num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D2
+L Device:LED D3
 U 1 1 5DB392B0
 P 5800 4950
-F 0 "D2" V 5800 5100 50  0000 C CNN
+F 0 "D3" V 5800 5100 50  0000 C CNN
 F 1 "LED" V 5900 5100 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 5800 4950 50  0001 C CNN
 F 3 "~" H 5800 4950 50  0001 C CNN
@@ -104,10 +104,10 @@ F 3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR04
 U 1 1 5DB4E95C
 P 2450 4050
-F 0 "#PWR?" H 2450 3800 50  0001 C CNN
+F 0 "#PWR04" H 2450 3800 50  0001 C CNN
 F 1 "GND" H 2455 3877 50  0000 C CNN
 F 2 "" H 2450 4050 50  0001 C CNN
 F 3 "" H 2450 4050 50  0001 C CNN
@@ -128,10 +128,10 @@ Wire Wire Line
 	4450 4850 4350 4850
 Connection ~ 4350 4850
 $Comp
-L Device:R R2
+L Device:R R1
 U 1 1 5DB5851E
 P 2900 3800
-F 0 "R2" H 2950 3900 50  0000 L CNN
+F 0 "R1" H 2950 3900 50  0000 L CNN
 F 1 "27" H 2950 3800 50  0000 L CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" V 2830 3800 50  0001 C CNN
 F 3 "https://www.digikey.ca/en/datasheets/yageo/yageo-pyu-r_marking_2" H 2900 3800 50  0001 C CNN
@@ -139,10 +139,10 @@ F 3 "https://www.digikey.ca/en/datasheets/yageo/yageo-pyu-r_marking_2" H 2900 38
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L Device:R R2
 U 1 1 5DB58F10
 P 3150 3600
-F 0 "R1" H 3200 3700 50  0000 L CNN
+F 0 "R2" H 3200 3700 50  0000 L CNN
 F 1 "27" H 3200 3600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" V 3080 3600 50  0001 C CNN
 F 3 "https://www.digikey.ca/en/datasheets/yageo/yageo-pyu-r_marking_2" H 3150 3600 50  0001 C CNN
@@ -150,10 +150,10 @@ F 3 "https://www.digikey.ca/en/datasheets/yageo/yageo-pyu-r_marking_2" H 3150 36
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 5DB5F1DC
 P 3500 4900
-F 0 "#PWR?" H 3500 4650 50  0001 C CNN
+F 0 "#PWR06" H 3500 4650 50  0001 C CNN
 F 1 "GND" H 3505 4727 50  0000 C CNN
 F 2 "" H 3500 4900 50  0001 C CNN
 F 3 "" H 3500 4900 50  0001 C CNN
@@ -177,10 +177,10 @@ Wire Wire Line
 Wire Wire Line
 	3500 4700 3500 4900
 $Comp
-L power:GND #PWR?
+L power:GND #PWR03
 U 1 1 5DB6B228
 P 2050 4900
-F 0 "#PWR?" H 2050 4650 50  0001 C CNN
+F 0 "#PWR03" H 2050 4650 50  0001 C CNN
 F 1 "GND" H 2055 4727 50  0000 C CNN
 F 2 "" H 2050 4900 50  0001 C CNN
 F 3 "" H 2050 4900 50  0001 C CNN
@@ -190,10 +190,10 @@ $EndComp
 Wire Wire Line
 	2050 4700 2050 4900
 $Comp
-L Regulator_Linear:AP2127N-3.3 U2
+L Regulator_Linear:AP2127N-3.3 U1
 U 1 1 5DB7793B
 P 4250 1050
-F 0 "U2" H 4250 1292 50  0000 C CNN
+F 0 "U1" H 4250 1292 50  0000 C CNN
 F 1 "AP2127N-3.3" H 4250 1201 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4250 1275 50  0001 C CIN
 F 3 "https://www.diodes.com/assets/Datasheets/AP2127.pdf" H 4250 1050 50  0001 C CNN
@@ -201,21 +201,10 @@ F 3 "https://www.diodes.com/assets/Datasheets/AP2127.pdf" H 4250 1050 50  0001 C
 	1    0    0    -1  
 $EndComp
 $Comp
-L ESP8266:ESP-01v090 U3
-U 1 1 5DB7950E
-P 8000 3600
-F 0 "U3" H 8000 4115 50  0000 C CNN
-F 1 "ESP-01" H 8000 4024 50  0000 C CNN
-F 2 "ESP8266:ESP-01" H 8000 3600 50  0001 C CNN
-F 3 "http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/" H 8000 3600 50  0001 C CNN
-	1    8000 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VBUS #PWR?
+L power:VBUS #PWR02
 U 1 1 5DB7B89F
 P 2050 2950
-F 0 "#PWR?" H 2050 2800 50  0001 C CNN
+F 0 "#PWR02" H 2050 2800 50  0001 C CNN
 F 1 "VBUS" H 2065 3123 50  0000 C CNN
 F 2 "" H 2050 2950 50  0001 C CNN
 F 3 "" H 2050 2950 50  0001 C CNN
@@ -223,10 +212,10 @@ F 3 "" H 2050 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VBUS #PWR?
+L power:VBUS #PWR07
 U 1 1 5DB7D253
 P 3800 800
-F 0 "#PWR?" H 3800 650 50  0001 C CNN
+F 0 "#PWR07" H 3800 650 50  0001 C CNN
 F 1 "VBUS" H 3815 973 50  0000 C CNN
 F 2 "" H 3800 800 50  0001 C CNN
 F 3 "" H 3800 800 50  0001 C CNN
@@ -238,10 +227,10 @@ Wire Wire Line
 Wire Wire Line
 	3800 1050 3800 800 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR08
 U 1 1 5DB7E3C1
 P 4250 1600
-F 0 "#PWR?" H 4250 1350 50  0001 C CNN
+F 0 "#PWR08" H 4250 1350 50  0001 C CNN
 F 1 "GND" H 4255 1427 50  0000 C CNN
 F 2 "" H 4250 1600 50  0001 C CNN
 F 3 "" H 4250 1600 50  0001 C CNN
@@ -249,32 +238,10 @@ F 3 "" H 4250 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW1
-U 1 1 5DB8259A
-P 6250 3950
-F 0 "SW1" V 6250 4235 50  0000 C CNN
-F 1 "Reset" V 6150 4200 50  0000 C CNN
-F 2 "" H 6250 4150 50  0001 C CNN
-F 3 "~" H 6250 4150 50  0001 C CNN
-	1    6250 3950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_Push SW2
-U 1 1 5DB83454
-P 10000 4050
-F 0 "SW2" V 10000 4250 50  0000 C CNN
-F 1 "Flash" V 9900 4250 50  0000 C CNN
-F 2 "" H 10000 4250 50  0001 C CNN
-F 3 "~" H 10000 4250 50  0001 C CNN
-	1    10000 4050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VBUS #PWR?
+L power:VBUS #PWR09
 U 1 1 5DB86585
 P 4250 2400
-F 0 "#PWR?" H 4250 2250 50  0001 C CNN
+F 0 "#PWR09" H 4250 2250 50  0001 C CNN
 F 1 "VBUS" H 4265 2573 50  0000 C CNN
 F 2 "" H 4250 2400 50  0001 C CNN
 F 3 "" H 4250 2400 50  0001 C CNN
@@ -282,10 +249,10 @@ F 3 "" H 4250 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D3
+L Device:LED D2
 U 1 1 5DB49DF5
 P 5350 4950
-F 0 "D3" V 5350 5100 50  0000 C CNN
+F 0 "D2" V 5350 5100 50  0000 C CNN
 F 1 "LED" V 5450 5100 50  0000 C CNN
 F 2 "LED_SMD:LED_0402_1005Metric" H 5350 4950 50  0001 C CNN
 F 3 "~" H 5350 4950 50  0001 C CNN
@@ -293,10 +260,10 @@ F 3 "~" H 5350 4950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR011
 U 1 1 5DB4D989
 P 4750 800
-F 0 "#PWR?" H 4750 650 50  0001 C CNN
+F 0 "#PWR011" H 4750 650 50  0001 C CNN
 F 1 "+3V3" H 4765 973 50  0000 C CNN
 F 2 "" H 4750 800 50  0001 C CNN
 F 3 "" H 4750 800 50  0001 C CNN
@@ -308,10 +275,10 @@ Wire Wire Line
 Wire Wire Line
 	4750 1050 4750 800 
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR015
 U 1 1 5DB50691
 P 6750 2750
-F 0 "#PWR?" H 6750 2600 50  0001 C CNN
+F 0 "#PWR015" H 6750 2600 50  0001 C CNN
 F 1 "+3V3" H 6765 2923 50  0000 C CNN
 F 2 "" H 6750 2750 50  0001 C CNN
 F 3 "" H 6750 2750 50  0001 C CNN
@@ -337,10 +304,10 @@ F 4 " YAG2337TR-ND " V 3550 1050 50  0001 C CNN "Part Num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 5DB572F1
 P 3350 1600
-F 0 "#PWR?" H 3350 1350 50  0001 C CNN
+F 0 "#PWR05" H 3350 1350 50  0001 C CNN
 F 1 "GND" H 3355 1427 50  0000 C CNN
 F 2 "" H 3350 1600 50  0001 C CNN
 F 3 "" H 3350 1600 50  0001 C CNN
@@ -374,10 +341,10 @@ Wire Wire Line
 Wire Wire Line
 	4250 2400 4250 2750
 $Comp
-L Device:R R4
+L Device:R R6
 U 1 1 5DB62EFF
 P 6250 3100
-F 0 "R4" H 6320 3146 50  0000 L CNN
+F 0 "R6" H 6320 3146 50  0000 L CNN
 F 1 "10k" H 6320 3055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" V 6180 3100 50  0001 C CNN
 F 3 "~" H 6250 3100 50  0001 C CNN
@@ -385,10 +352,10 @@ F 3 "~" H 6250 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR013
 U 1 1 5DB6545B
 P 6250 4300
-F 0 "#PWR?" H 6250 4050 50  0001 C CNN
+F 0 "#PWR013" H 6250 4050 50  0001 C CNN
 F 1 "GND" H 6255 4127 50  0000 C CNN
 F 2 "" H 6250 4300 50  0001 C CNN
 F 3 "" H 6250 4300 50  0001 C CNN
@@ -403,10 +370,10 @@ Connection ~ 6250 3650
 Wire Wire Line
 	6250 3650 6250 3750
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR012
 U 1 1 5DB689FE
 P 6250 2750
-F 0 "#PWR?" H 6250 2600 50  0001 C CNN
+F 0 "#PWR012" H 6250 2600 50  0001 C CNN
 F 1 "+3V3" H 6265 2923 50  0000 C CNN
 F 2 "" H 6250 2750 50  0001 C CNN
 F 3 "" H 6250 2750 50  0001 C CNN
@@ -414,10 +381,10 @@ F 3 "" H 6250 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR016
 U 1 1 5DB6A3C6
 P 9300 3450
-F 0 "#PWR?" H 9300 3200 50  0001 C CNN
+F 0 "#PWR016" H 9300 3200 50  0001 C CNN
 F 1 "GND" V 9305 3322 50  0000 R CNN
 F 2 "" H 9300 3450 50  0001 C CNN
 F 3 "" H 9300 3450 50  0001 C CNN
@@ -427,10 +394,10 @@ $EndComp
 Wire Wire Line
 	8950 3450 9300 3450
 $Comp
-L Connector_Generic:Conn_01x02 J2
+L Connector_Generic:Conn_01x02 J6
 U 1 1 5DB720E7
 P 10600 3550
-F 0 "J2" H 10680 3542 50  0000 L CNN
+F 0 "J6" H 10680 3542 50  0000 L CNN
 F 1 "GPIO" H 10680 3451 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10600 3550 50  0001 C CNN
 F 3 "~" H 10600 3550 50  0001 C CNN
@@ -438,10 +405,10 @@ F 3 "~" H 10600 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR021
 U 1 1 5DB759EC
 P 9850 2800
-F 0 "#PWR?" H 9850 2650 50  0001 C CNN
+F 0 "#PWR021" H 9850 2650 50  0001 C CNN
 F 1 "+3V3" H 9865 2973 50  0000 C CNN
 F 2 "" H 9850 2800 50  0001 C CNN
 F 3 "" H 9850 2800 50  0001 C CNN
@@ -449,10 +416,10 @@ F 3 "" H 9850 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
+L Device:R R7
 U 1 1 5DB77055
 P 9700 3100
-F 0 "R5" H 9770 3146 50  0000 L CNN
+F 0 "R7" H 9770 3146 50  0000 L CNN
 F 1 "10k" H 9770 3055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" V 9630 3100 50  0001 C CNN
 F 3 "~" H 9700 3100 50  0001 C CNN
@@ -460,10 +427,10 @@ F 3 "~" H 9700 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R6
+L Device:R R8
 U 1 1 5DB77F7F
 P 10000 3100
-F 0 "R6" H 10070 3146 50  0000 L CNN
+F 0 "R8" H 10070 3146 50  0000 L CNN
 F 1 "10k" H 10070 3055 50  0000 L CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" V 9930 3100 50  0001 C CNN
 F 3 "~" H 10000 3100 50  0001 C CNN
@@ -496,10 +463,10 @@ Wire Wire Line
 	10400 3650 10000 3650
 Connection ~ 10000 3650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR022
 U 1 1 5DB8D9D0
 P 10000 4400
-F 0 "#PWR?" H 10000 4150 50  0001 C CNN
+F 0 "#PWR022" H 10000 4150 50  0001 C CNN
 F 1 "GND" H 10005 4227 50  0000 C CNN
 F 2 "" H 10000 4400 50  0001 C CNN
 F 3 "" H 10000 4400 50  0001 C CNN
@@ -542,10 +509,10 @@ Wire Wire Line
 Wire Wire Line
 	5800 4150 5800 4800
 $Comp
-L Device:R R7
+L Device:R R4
 U 1 1 5DBA14D4
 P 5350 5400
-F 0 "R7" H 5420 5446 50  0000 L CNN
+F 0 "R4" H 5420 5446 50  0000 L CNN
 F 1 "270" H 5420 5355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" V 5280 5400 50  0001 C CNN
 F 3 "https://www.digikey.ca/en/datasheets/yageo/yageo-pyu-r_marking_2" H 5350 5400 50  0001 C CNN
@@ -554,10 +521,10 @@ F 4 " YAG2337TR-ND " H 5350 5400 50  0001 C CNN "Part Num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R8
+L Device:R R5
 U 1 1 5DBA207B
 P 5800 5400
-F 0 "R8" H 5870 5446 50  0000 L CNN
+F 0 "R5" H 5870 5446 50  0000 L CNN
 F 1 "270" H 5870 5355 50  0000 L CNN
 F 2 "Resistor_SMD:R_0201_0603Metric" V 5730 5400 50  0001 C CNN
 F 3 "https://www.digikey.ca/en/datasheets/yageo/yageo-pyu-r_marking_2" H 5800 5400 50  0001 C CNN
@@ -570,10 +537,10 @@ Wire Wire Line
 Wire Wire Line
 	5800 5250 5800 5100
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR014
 U 1 1 5DBA5C50
 P 6400 5350
-F 0 "#PWR?" H 6400 5200 50  0001 C CNN
+F 0 "#PWR014" H 6400 5200 50  0001 C CNN
 F 1 "+3V3" H 6415 5523 50  0000 C CNN
 F 2 "" H 6400 5350 50  0001 C CNN
 F 3 "" H 6400 5350 50  0001 C CNN
@@ -593,20 +560,9 @@ Wire Wire Line
 Connection ~ 5800 5600
 $Comp
 L Connector_Generic:Conn_01x02 J3
-U 1 1 5DB65ECB
-P 9800 5750
-F 0 "J3" H 9880 5742 50  0000 L CNN
-F 1 "3V3" H 9880 5651 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9800 5750 50  0001 C CNN
-F 3 "~" H 9800 5750 50  0001 C CNN
-	1    9800 5750
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J4
 U 1 1 5DB67B24
 P 10150 5750
-F 0 "J4" H 10230 5742 50  0000 L CNN
+F 0 "J3" H 10230 5742 50  0000 L CNN
 F 1 "VBUS" H 10230 5651 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10150 5750 50  0001 C CNN
 F 3 "~" H 10150 5750 50  0001 C CNN
@@ -614,10 +570,10 @@ F 3 "~" H 10150 5750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J5
+L Connector_Generic:Conn_01x02 J2
 U 1 1 5DB69DAE
 P 9550 5750
-F 0 "J5" H 9630 5742 50  0000 L CNN
+F 0 "J2" H 9630 5742 50  0000 L CNN
 F 1 "3V3" H 9630 5651 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9550 5750 50  0001 C CNN
 F 3 "~" H 9550 5750 50  0001 C CNN
@@ -625,32 +581,10 @@ F 3 "~" H 9550 5750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J6
-U 1 1 5DB6BA0B
-P 10400 5750
-F 0 "J6" H 10480 5742 50  0000 L CNN
-F 1 "VBUS" H 10480 5651 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10400 5750 50  0001 C CNN
-F 3 "~" H 10400 5750 50  0001 C CNN
-	1    10400 5750
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DB765D9
-P 9700 5450
-F 0 "#PWR?" H 9700 5200 50  0001 C CNN
-F 1 "GND" H 9705 5277 50  0000 C CNN
-F 2 "" H 9700 5450 50  0001 C CNN
-F 3 "" H 9700 5450 50  0001 C CNN
-	1    9700 5450
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR?
+L power:GND #PWR017
 U 1 1 5DB76BAD
 P 9450 5450
-F 0 "#PWR?" H 9450 5200 50  0001 C CNN
+F 0 "#PWR017" H 9450 5200 50  0001 C CNN
 F 1 "GND" H 9455 5277 50  0000 C CNN
 F 2 "" H 9450 5450 50  0001 C CNN
 F 3 "" H 9450 5450 50  0001 C CNN
@@ -658,10 +592,10 @@ F 3 "" H 9450 5450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR023
 U 1 1 5DB7898B
 P 10050 5450
-F 0 "#PWR?" H 10050 5200 50  0001 C CNN
+F 0 "#PWR023" H 10050 5200 50  0001 C CNN
 F 1 "GND" H 10055 5277 50  0000 C CNN
 F 2 "" H 10050 5450 50  0001 C CNN
 F 3 "" H 10050 5450 50  0001 C CNN
@@ -669,21 +603,10 @@ F 3 "" H 10050 5450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5DB78991
-P 10300 5450
-F 0 "#PWR?" H 10300 5200 50  0001 C CNN
-F 1 "GND" H 10305 5277 50  0000 C CNN
-F 2 "" H 10300 5450 50  0001 C CNN
-F 3 "" H 10300 5450 50  0001 C CNN
-	1    10300 5450
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR018
 U 1 1 5DB84440
 P 9550 5150
-F 0 "#PWR?" H 9550 5000 50  0001 C CNN
+F 0 "#PWR018" H 9550 5000 50  0001 C CNN
 F 1 "+3V3" H 9565 5323 50  0000 C CNN
 F 2 "" H 9550 5150 50  0001 C CNN
 F 3 "" H 9550 5150 50  0001 C CNN
@@ -691,36 +614,14 @@ F 3 "" H 9550 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
-U 1 1 5DB84CBF
-P 9800 5150
-F 0 "#PWR?" H 9800 5000 50  0001 C CNN
-F 1 "+3V3" H 9815 5323 50  0000 C CNN
-F 2 "" H 9800 5150 50  0001 C CNN
-F 3 "" H 9800 5150 50  0001 C CNN
-	1    9800 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VBUS #PWR?
+L power:VBUS #PWR024
 U 1 1 5DB8520C
 P 10150 5150
-F 0 "#PWR?" H 10150 5000 50  0001 C CNN
+F 0 "#PWR024" H 10150 5000 50  0001 C CNN
 F 1 "VBUS" H 10165 5323 50  0000 C CNN
 F 2 "" H 10150 5150 50  0001 C CNN
 F 3 "" H 10150 5150 50  0001 C CNN
 	1    10150 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VBUS #PWR?
-U 1 1 5DB85A79
-P 10400 5150
-F 0 "#PWR?" H 10400 5000 50  0001 C CNN
-F 1 "VBUS" H 10415 5323 50  0000 C CNN
-F 2 "" H 10400 5150 50  0001 C CNN
-F 3 "" H 10400 5150 50  0001 C CNN
-	1    10400 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -728,37 +629,9 @@ Wire Wire Line
 Wire Wire Line
 	9550 5550 9550 5150
 Wire Wire Line
-	9700 5550 9700 5450
-Wire Wire Line
-	9800 5550 9800 5150
-Wire Wire Line
 	10050 5550 10050 5450
 Wire Wire Line
-	10300 5550 10300 5450
-Wire Wire Line
 	10150 5150 10150 5550
-Wire Wire Line
-	10400 5550 10400 5150
-$Comp
-L USB_CONN:10118192-0001LF J1
-U 1 1 5DB79DCA
-P 1100 3550
-F 0 "J1" H 1164 4295 60  0000 C CNN
-F 1 "USB MiniB" H 1164 4189 60  0000 C CNN
-F 2 "digikey-footprints:USB_Micro_B_Female_10118192" H 1300 3750 60  0001 L CNN
-F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 1300 3850 60  0001 L CNN
-F 4 "609-4613-1-ND" H 1300 3950 60  0001 L CNN "Digi-Key_PN"
-F 5 "10118192-0001LF" H 1300 4050 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 1300 4150 60  0001 L CNN "Category"
-F 7 "USB, DVI, HDMI Connectors" H 1300 4250 60  0001 L CNN "Family"
-F 8 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 1300 4350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/amphenol-icc-fci/10118192-0001LF/609-4613-1-ND/2785378" H 1300 4450 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN RCPT USB2.0 MICRO B SMD R/A" H 1300 4550 60  0001 L CNN "Description"
-F 11 "Amphenol ICC (FCI)" H 1300 4650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1300 4750 60  0001 L CNN "Status"
-	1    1100 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2050 2950 2050 3350
 Wire Wire Line
@@ -767,10 +640,10 @@ Connection ~ 2050 3350
 Wire Wire Line
 	2050 3350 2050 4400
 $Comp
-L power:GND #PWR?
+L power:GND #PWR01
 U 1 1 5DB86472
 P 1600 4300
-F 0 "#PWR?" H 1600 4050 50  0001 C CNN
+F 0 "#PWR01" H 1600 4050 50  0001 C CNN
 F 1 "GND" H 1605 4127 50  0000 C CNN
 F 2 "" H 1600 4300 50  0001 C CNN
 F 3 "" H 1600 4300 50  0001 C CNN
@@ -820,4 +693,75 @@ Wire Wire Line
 	1600 3750 1600 4150
 Connection ~ 1600 3750
 Connection ~ 1600 4150
+$Comp
+L ESP8266:ESP-01v090 U3
+U 1 1 5DB88D95
+P 8000 3600
+F 0 "U3" H 8000 4115 50  0000 C CNN
+F 1 "ESP-01v090" H 8000 4024 50  0000 C CNN
+F 2 "ESP8266:ESP-01" H 8000 3600 50  0001 C CNN
+F 3 "http://l0l.org.uk/2014/12/esp8266-modules-hardware-guide-gotta-catch-em-all/" H 8000 3600 50  0001 C CNN
+	1    8000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_CONN:10118192-0001LF J1
+U 1 1 5DB89D3A
+P 1100 3550
+F 0 "J1" H 1164 4295 60  0000 C CNN
+F 1 "USB Mini B" H 1164 4189 60  0000 C CNN
+F 2 "digikey-footprints:USB_Micro_B_Female_10118192" H 1300 3750 60  0001 L CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 1300 3850 60  0001 L CNN
+F 4 "609-4613-1-ND" H 1300 3950 60  0001 L CNN "Digi-Key_PN"
+F 5 "10118192-0001LF" H 1300 4050 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1300 4150 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 1300 4250 60  0001 L CNN "Family"
+F 8 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" H 1300 4350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/amphenol-icc-fci/10118192-0001LF/609-4613-1-ND/2785378" H 1300 4450 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN RCPT USB2.0 MICRO B SMD R/A" H 1300 4550 60  0001 L CNN "Description"
+F 11 "Amphenol ICC (FCI)" H 1300 4650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1300 4750 60  0001 L CNN "Status"
+	1    1100 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L tactile_switches:B3FS-1012P SW1
+U 1 1 5DBC6186
+P 6150 3950
+F 0 "SW1" V 6097 4138 60  0000 L CNN
+F 1 "Reset" V 6203 4138 60  0000 L CNN
+F 2 "tactile_switches:B3FS-1012P" H 6350 4150 60  0001 L CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf" H 6350 4250 60  0001 L CNN
+F 4 "SW1237TR-ND" H 6350 4350 60  0001 L CNN "Digi-Key_PN"
+F 5 "B3FS-1012P" H 6350 4450 60  0001 L CNN "MPN"
+F 6 "Switches" H 6350 4550 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 6350 4650 60  0001 L CNN "Family"
+F 8 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf" H 6350 4750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.ca/product-detail/en/omron-electronics-inc-emc-div/B3FS-1012P/SW1237TR-ND/1811746" H 6350 4850 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 6350 4950 60  0001 L CNN "Description"
+F 11 "Omron Electronics Inc-EMC Div" H 6350 5050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6350 5150 60  0001 L CNN "Status"
+	1    6150 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L tactile_switches:B3FS-1012P SW2
+U 1 1 5DBE024E
+P 9900 4050
+F 0 "SW2" V 9847 4238 60  0000 L CNN
+F 1 "Flash" V 9953 4238 60  0000 L CNN
+F 2 "tactile_switches:B3FS-1012P" H 10100 4250 60  0001 L CNN
+F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf" H 10100 4350 60  0001 L CNN
+F 4 "SW1237TR-ND" H 10100 4450 60  0001 L CNN "Digi-Key_PN"
+F 5 "B3FS-1012P" H 10100 4550 60  0001 L CNN "MPN"
+F 6 "Switches" H 10100 4650 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 10100 4750 60  0001 L CNN "Family"
+F 8 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf" H 10100 4850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "https://www.digikey.ca/product-detail/en/omron-electronics-inc-emc-div/B3FS-1012P/SW1237TR-ND/1811746" H 10100 4950 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 10100 5050 60  0001 L CNN "Description"
+F 11 "Omron Electronics Inc-EMC Div" H 10100 5150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10100 5250 60  0001 L CNN "Status"
+	1    9900 4050
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

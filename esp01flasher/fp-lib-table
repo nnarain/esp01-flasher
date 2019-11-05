@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name ESP8266)(type KiCad)(uri ${KIPRJMOD}/libs/kicad-ESP8266/ESP8266.pretty)(options "")(descr ""))
   (lib (name digikey-footprints)(type KiCad)(uri ${KIPRJMOD}/libs/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name tactile_switches)(type KiCad)(uri D:/Users/nnarain/Code/workspace/Projects/kicad-inventory/tactile_switches.pretty)(options "")(descr ""))
 )
