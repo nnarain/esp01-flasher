@@ -4,3 +4,6 @@
 [submodule "esp01flasher/libs/digikey-kicad-library"]
 	path = esp01flasher/libs/digikey-kicad-library
 	url = https://github.com/Digi-Key/digikey-kicad-library.git
+[submodule "esp01flasher/libs/kicad-inventory"]
+	path = esp01flasher/libs/kicad-inventory
+	url = https://github.com/nnarain/kicad-inventory.git
